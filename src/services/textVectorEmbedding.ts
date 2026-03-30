@@ -32,7 +32,7 @@ const docsContent = docs.map((doc) => doc.pageContent);
 // text - splitting // CHUNKING
 
 const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 1000,
+  chunkSize: 500,
   chunkOverlap: 50,
 });
 
@@ -46,7 +46,8 @@ const chunks = await textSplitter.splitDocuments(docs);
 
 // console.log("Embedded content", embeddedPdfContent);
 
-// LEARNING ABOUT VECTOR STORE
+// LEARNING ABOUT VECTOR STORE | MEMORY
+
 const memoryVectorStore = new MemoryVectorStore(embeddings);
 
 await memoryVectorStore.addDocuments([...chunks]); // not return anything
