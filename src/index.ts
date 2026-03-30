@@ -1,4 +1,3 @@
-import "dotenv/config.js";
-
-// import "./langchainExample.ts";
-import "./pdfLoader.ts";
+// import "./services/langchainExample.ts";
+// import "./services/pdfLoader.ts";
+import "./services/textVectorEmbedding.ts";
