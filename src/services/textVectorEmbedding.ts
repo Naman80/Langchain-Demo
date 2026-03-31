@@ -19,7 +19,7 @@ const embeddings = new OllamaEmbeddings({
   baseUrl: LOCAL_LLM_BASE_URL,
 });
 
-const pdfPath = "./pdf-documents/Lec-1.pdf";
+const pdfPath = "./pdfs/Lec-1.pdf";
 
 const loader = new PDFLoader(pdfPath);
 

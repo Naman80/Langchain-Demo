@@ -5,7 +5,7 @@ import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 
 // FOR PARSING SINGLE SINGLE PDF FILE YOU HAVE SPECIFY FILE PATH
 
-// const pdfPath = "./pdf-documents/Lec-2.pdf";
+// const pdfPath = "./pdfs/Lec-2.pdf";
 
 // const loader = new PDFLoader(pdfPath, { splitPages: false });
 
@@ -25,7 +25,7 @@ import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 
 // FOR PARSING ALL THE PDFS PRESENT IN ONE DIRECTORY
 
-const directoryPath = "./pdf-documents";
+const directoryPath = "./pdfs";
 
 const directoryLoader = new DirectoryLoader(directoryPath, {
   ".pdf": (path: string) => new PDFLoader(path),

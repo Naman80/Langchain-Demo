@@ -1,6 +1,8 @@
-
+.DS_STORE
 .env
 node_modules
 dist
 
-pdf-documents
+// PDFS LOCATIONS
+pdfs
+largePdfs

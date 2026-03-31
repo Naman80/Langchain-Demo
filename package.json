@@ -14,10 +14,11 @@
   "type": "module",
   "dependencies": {
     "@langchain/classic": "^1.0.25",
-    "@langchain/community": "^1.1.25",
+    "@langchain/community": "^1.1.27",
     "@langchain/core": "^1.1.36",
     "@langchain/ollama": "^1.2.6",
     "@langchain/openrouter": "^0.1.8",
+    "faiss-node": "^0.5.1",
     "fast-xml-parser": "^5.5.9",
     "langchain": "^1.2.36",
     "pdf-parse": "^1.1.4"

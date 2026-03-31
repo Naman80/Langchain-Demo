@@ -12,5 +12,8 @@ export const LOCAL_LLM_BASE_URL = LOCAL_BY_HTTPS
 
 export const LOCAL_LLM_MODEL1 = process.env.LOCAL_LLM_MODEL1;
 export const LOCAL_LLM_MODEL2 = process.env.LOCAL_LLM_MODEL2;
+export const LOCAL_LLM_MODEL3 = process.env.LOCAL_LLM_MODEL3;
 export const LOCAL_LLM_EMBEDDING_MODEL1 =
   process.env.LOCAL_LLM_EMBEDDING_MODEL1;
+export const LOCAL_LLM_EMBEDDING_MODEL2 =
+  process.env.LOCAL_LLM_EMBEDDING_MODEL2;
